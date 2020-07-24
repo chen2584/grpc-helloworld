@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include=".\helloworld.proto" />
+    <Protobuf Include="user.proto" />
   </ItemGroup>
 
 </Project>
