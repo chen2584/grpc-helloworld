@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+service UserService {
+    rpc GetUserDetail(RequestUser) returns (ResponseUser);
+}
+
+message RequestUser {
+    string name = 1;
+    google.protobuf.Timestamp birth_day = 2;
+    string email = 3;
+}
+
+message ResponseUser {
+    string message = 1;
+    int32 age = 2;
+}
