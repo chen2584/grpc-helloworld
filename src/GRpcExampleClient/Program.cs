@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GRpcExample.Client
+namespace GRpcExampleClient
 {
     class Program
     {
