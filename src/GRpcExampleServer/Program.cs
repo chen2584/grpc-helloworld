@@ -14,7 +14,7 @@ namespace GRpcExampleServer
 
             var response = new ResponseUser
             {
-                Message = $"Hello {request.Name}",
+                Message = $"Hello {request.Name}, Your Email is {request.Email}.",
                 Age = age
             };
             return Task.FromResult(response);
